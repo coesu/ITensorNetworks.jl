@@ -28,6 +28,7 @@ function exponentiate_updater(
     tol,
     ishermitian,
     issymmetric,
+    eager,
   )
   return result, (; info=exp_info)
 end
